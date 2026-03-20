@@ -225,6 +225,14 @@
     <module>integration-tests</module>
   </modules>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/chmodshubham/sonar-cxx</url>
+    </repository>
+  </distributionManagement>
+
   <scm>
     <connection>scm:git:git@github.com:SonarOpenCommunity/sonar-cxx.git</connection>
     <developerConnection>https://github.com/SonarOpenCommunity/sonar-cxx</developerConnection>
